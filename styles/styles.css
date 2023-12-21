@@ -1,0 +1,242 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
+}
+/* main styles */
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+/* main-content styles */
+.main-content {
+  background-color: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px 50px 20px 50px;
+}
+.main-titles {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin: 0;
+  margin-top: 5px;
+}
+/* about styles */
+.about {
+  margin-bottom: 20px;
+}
+.about-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+.about-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  margin: 0 0 15px 0;
+}
+.about-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  width: 650px;
+  text-align: justify;
+}
+/* projects styles */
+.projects {
+  margin-bottom: 25px;
+}
+.project-list {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0;
+  width: 650px;
+  margin-left: 17px;
+}
+b {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+.project-description {
+  margin: 0 0 0 10px;
+  width: 620px;
+}
+.project-text,
+.project-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  text-decoration-line: none;
+}
+.project-link {
+  margin-left: 10px;
+  text-decoration: underline;
+}
+.project-link > i {
+  font-size: 21px;
+  color: #000000;
+}
+ul.responsibilities {
+  list-style-type: none;
+  font-weight: 400;
+  line-height: 1.2;
+}
+/* work styles */
+.work-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 10px 0;
+}
+
+.work-period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0;
+}
+.black {
+  color: #000000;
+}
+.work-list {
+  padding: 0;
+  margin-left: 17px;
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  width: 550px;
+  text-align: justify;
+}
+.work {
+  margin-bottom: 25px;
+}
+.education-speciality {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+/* education styles */
+.high-school {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 10px 0 0 0;
+}
+.speciality {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.epam-cources {
+  display: flex;
+}
+.cource-wraper {
+  margin-right: 30px;
+}
+.education-speciality {
+  margin: 10px 0;
+}
+/* aside styles */
+.sidebar {
+  background-color: #1e2939;
+  color: #ffffff;
+  padding: 40px 0;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.img-wraper {
+  text-align: center;
+}
+.sidebar-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+.contacts,
+.tech-skills,
+.soft-skills,
+.languages {
+  margin-left: 40px;
+}
+.contacts-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 5px;
+  color: #ffffff;
+}
+.contacts-details {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: none;
+  color: lightgray;
+}
+.skills-list {
+  color: #fb6d3a;
+  padding: 0;
+  margin-left: 17px;
+  margin-bottom: 0;
+}
+.skills-list-item {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.contacts p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.social {
+  margin: 0 auto;
+  display: flex;
+}
+.social a {
+  color: #ffffff;
+  margin-right: 20px;
+}
+.fa-whatsapp,
+.fa-github,
+.fa-linkedin-square,
+.fa-facebook-square {
+  font-size: 26px;
+}
+.fa.fa-telegram {
+  font-size: 24px;
+}
+#modal-whatsap {
+  width: 300px;
+  margin: auto auto auto 10%;
+}
