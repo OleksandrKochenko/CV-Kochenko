@@ -170,6 +170,9 @@ ul.responsibilities {
   flex-direction: column;
   justify-content: space-between;
 }
+.sidebar-ca {
+  padding-top: 0;
+}
 .img-wraper {
   text-align: center;
 }
