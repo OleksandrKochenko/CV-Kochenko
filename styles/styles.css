@@ -47,7 +47,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  width: 650px;
+  width: 750px;
   text-align: justify;
 }
 /* projects styles */
@@ -59,7 +59,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   padding: 0;
-  width: 650px;
+  width: 750px;
   margin-left: 17px;
 }
 b {
@@ -69,7 +69,7 @@ b {
 }
 .project-description {
   margin: 0 0 0 10px;
-  width: 620px;
+  width: 720px;
 }
 .project-text,
 .project-link {
@@ -122,7 +122,7 @@ ul.responsibilities {
   font-size: 14px;
   line-height: 24px;
   color: #000000;
-  width: 550px;
+  width: 650px;
   text-align: justify;
 }
 .work {
