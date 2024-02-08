@@ -1,0 +1,109 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
+  color: #000;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.main {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  width: 1100px;
+  margin: 0 auto;
+}
+.main_content {
+  background-color: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px 50px 20px 50px;
+}
+.contacts_new {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  font-size: 16px;
+  background-color: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px 50px;
+}
+.fa-whatsapp,
+.fa-github,
+.fa-linkedin-square,
+.fa-facebook-square {
+  font-size: 24px;
+}
+.fa.fa-telegram {
+  font-size: 22px;
+}
+.fa.fa-user-circle-o {
+  font-size: 21px;
+}
+.fa-envelope-o {
+  font-size: 20px;
+}
+.about_position,
+.about_name {
+  text-align: center;
+  margin: 10px 0;
+}
+.about_description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: justify;
+}
+.phone_contact {
+  font-size: 15px;
+}
+.contacts-details:hover {
+  color: orangered;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+}
+.list_wraper {
+  display: flex;
+  justify-content: space-between;
+}
+.items_list_first {
+  width: 45%;
+  margin: 0;
+}
+.items_list_second {
+  width: 55%;
+  margin: 0;
+}
+.item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: orangered;
+}
+.item_text {
+  color: #000;
+}
+.work_list {
+  margin: 0;
+  list-style-type: none;
+}
+.work_item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  margin-top: 18.72px;
+}
+.work_title {
+  font-weight: 600;
+  margin: 0;
+}
+.work_period {
+  margin: 0;
+}
+.work_description {
+  list-style-type: disc;
+}
