@@ -49,7 +49,8 @@ a {
   text-align: center;
   margin: 10px 0;
 }
-.about_description {
+.about_description,
+.project_description {
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -59,12 +60,12 @@ a {
 .phone_contact {
   font-size: 15px;
 }
-.contacts-details:hover {
+.contacts_details:hover {
   color: orangered;
   font-weight: 600;
-  letter-spacing: -0.4px;
 }
-.list_wraper {
+.list_wraper,
+.soft_skills {
   display: flex;
   justify-content: space-between;
 }
@@ -106,4 +107,19 @@ a {
 }
 .work_description {
   list-style-type: disc;
+}
+.project_description {
+  margin: 0;
+}
+.project_title_wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.project_link {
+  text-decoration: underline;
+}
+.project_link:hover {
+  color: orangered;
 }
