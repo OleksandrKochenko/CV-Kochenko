@@ -60,9 +60,11 @@ a {
 .phone_contact {
   font-size: 15px;
 }
+.contacts_details {
+  font-weight: 600;  
+}
 .contacts_details:hover {
   color: orangered;
-  font-weight: 600;
 }
 .list_wraper,
 .soft_skills {
